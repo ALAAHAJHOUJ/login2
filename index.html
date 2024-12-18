@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Luckiest+Guy&family=Mr+Dafoe&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+DE+VA+Guides&family=Satisfy&family=Spicy+Rice&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+    .great-vibes-regular {
+  font-family: "Great Vibes", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
     body{
       background-color: rgb(233, 226, 217);
       display: flex;
@@ -40,6 +50,11 @@
     font-weight: bold;
     margin-bottom: 20px;
     }
+
+#titre
+{
+font-weight: 700;
+}
 
     form
     {
@@ -136,7 +151,7 @@
 </head>
 <body>
   <div id="pere" class="shadow-2xl">
-    <div id="login" class="text-white font-sans bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Login Form</div>
+    <div id="login" class="text-white font-sans bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"><h1 id="titre" class="great-vibes-regular">Login Form</h1></div>
     <form action="">
         <input type="text" id="text" class=" rounded-full" placeholder="Enter Your Name">
         <input type="password" id="pass" class=" rounded-full" placeholder="Enter Your Password">
